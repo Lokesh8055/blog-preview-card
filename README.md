@@ -4,15 +4,15 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
+### Links
+
+- [Solution](https://github.com/Lokesh8055/blog-preview-card)
+- [LiveSite](https://blog-preview-lp.netlify.app)
+
 ### Screenshot
 
 ![Desktop](./screenshot/desktop.jpg)
 ![Mobile](./screenshot/mobile.jpg)
-
-### Links
-
-- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/blog-preview-card)
-- [LiveSite](https://blog-preview-lp.netlify.app)
 
 ## My process
 
