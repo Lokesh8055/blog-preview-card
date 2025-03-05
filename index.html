@@ -1,53 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Blog preview card</title>
-  </head>
-  <body>
-    <main>
-      <section class="blogCard">
-        <a
-          href="https://www.w3schools.com/"
-          class="blogCard__link"
-          aria-label="Learn more about HTML and CSS"
-        ></a>
-        <img
-          class="blogCard__img"
-          src="./assets/images/illustration-article.svg"
-          alt="A striking yellow and black graphic featuring a prominent black and white logo at the center"
-        />
-        <span class="blogCard__learning">Learning</span>
-        <p class="blogCard__publish">Published 21 Dec 2023</p>
-        <h2 class="blogCard__heading">HTML & CSS foundations</h2>
-        <p class="blogCard__subtext">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-        <div class="blogCard__list">
-          <img
-            src="./assets/images/image-avatar.png"
-            alt="man in a blue shirt gazes upward, contemplating something above him with a thoughtful expression"
-            class="blogCard__list--img"
-          />
-          <p class="blogCard__list--name">Greg Hooper</p>
-        </div>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+
+<body>
+  <main>
+    <h1 class="visually-hidden">Blog preview card</h1>
+    <section class="blogCard">
+      <a href="https://www.w3schools.com/" class="blogCard__link" aria-label="Learn more about HTML and CSS"></a>
+      <img class="blogCard__img" src="./assets/images/illustration-article.svg"
+        alt="A striking yellow and black graphic featuring a prominent black and white logo at the center" />
+      <span class="blogCard__learning">Learning</span>
+      <p class="blogCard__publish">Published 21 Dec 2023</p>
+      <h2 class="blogCard__heading">HTML & CSS foundations</h2>
+      <p class="blogCard__subtext">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <div class="blogCard__list">
+        <img src="./assets/images/image-avatar.png"
+          alt="man in a blue shirt gazes upward, contemplating something above him with a thoughtful expression"
+          class="blogCard__list--img" />
+        <p class="blogCard__list--name">Greg Hooper</p>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
